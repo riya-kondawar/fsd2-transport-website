@@ -1,0 +1,185 @@
+/* fsd Task 2:- Transport modes in Pune css new*/
+
+
+:root{
+    --font1: "Righteous", sans-serif;
+    --font2: "Alumni Sans Pinstripe", sans-serif;
+    --font3: "Rum Raisin", sans-serif;
+    --font4: "Alumni Sans", sans-serif;
+    --font5: "Almendra", serif;  /* Header font*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: var(--font4);
+    /*background-color: #f4f4f4;*/
+        background-color: #000000;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1{
+    font-family: var(--font5)
+
+}
+
+nav{
+    font-family: var(--font1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    /* margin: 20px; */
+    /* border-radius: 8px; */
+    height: 100%;
+}
+
+section img {
+    max-width: 100%;
+    /* height: 50%; */
+    border-radius: 10px;
+    margin: 20px;    
+}
+
+#home {
+    background-color: #ffeaa7;
+}
+
+#about {
+    background-color: #fab1a0;
+}
+
+#car {
+    background-color: #74b9ff;
+}
+
+#car .car-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#auto {
+    background-color: #ff7675;
+}
+
+#auto .auto-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bus {
+    background-color: #fdcb6e;
+}
+
+#bus .bus-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#metro {
+    background-color: #81ecec;
+}
+
+#metro .metro-content {
+    display: flex;
+    justify-content: space-between;
+}
+.metro-content p{
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+#metro img{
+    min-width: 500px;
+    max-height: 500px;
+    display: block;
+    object-fit: cover;
+    /* object-position: 50%; */
+}
+
+#train {
+    background-color: #a29bfe;
+}
+
+#train .train-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 30vh;
+    bottom: 0;
+}
+
+
+/* Footer */
+footer {
+    padding: 20px;
+    width: 100%;
+    height: 30vh;
+    /* background-color: #cb89db; */
+    background-color: #7593af;
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    height: 10vh;
+    padding: 10px;
+    /* margin: 20px; */
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    padding: 5px;
+    color: white;
+    /* text-align: center; */
+}
+
+footer p {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+/* end footer */
