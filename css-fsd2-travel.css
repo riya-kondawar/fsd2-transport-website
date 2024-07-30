@@ -1,0 +1,178 @@
+/* 2) Transport modes in Pune css */
+
+
+:root{
+    --font1: "Righteous", sans-serif;
+    --font2: "Alumni Sans Pinstripe", sans-serif;
+    --font3: "Rum Raisin", sans-serif;
+    --font4: "Alumni Sans", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: var(--font3); */
+    font-family: var(--font4);
+    /* background-color: #6c63ff; */
+
+}
+
+.header {
+    display: flex;
+    color: rgb(31, 30, 30);
+    background-color: #b9b6ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+.nav {
+    width: 550px;
+    height: 50px;
+    color: #6c63ff;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Righteous", sans-serif;
+}
+
+.nav ul{
+    width: 550px;
+    height: 50px;
+    color: #ce4545;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    /* color: rgb(79, 20, 134); */
+    color: #3f39af;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 0px;
+    cursor: pointer;
+    color: white;
+    font-family: "Almendra", serif;
+}
+
+.home{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+}
+.home .content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .content h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #ce4545;
+}
+.home .content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #eb9b9b;
+}
+
+
+
+
+
+
+
+
+body {
+    /* font-family: Arial, sans-serif; */
+    /* margin: 0; */
+    /* padding: 0; */
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#home {
+    background-color: #ffeaa7;
+}
+
+#about {
+    background-color: #fab1a0;
+}
+
+#car {
+    background-color: #74b9ff;
+}
+
+#auto {
+    background-color: #ff7675;
+}
+
+#bus {
+    background-color: #fdcb6e;
+}
+
+#metro {
+    background-color: #81ecec;
+}
+
+#train {
+    background-color: #a29bfe;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
